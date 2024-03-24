@@ -187,15 +187,15 @@
     <Compile Include="Areas\Admin\Controllers\AccountController.cs" />
     <Compile Include="Areas\Admin\Controllers\AdvController.cs" />
     <Compile Include="Areas\Admin\Controllers\Decorator\LoggingOrderControllerDecorator.cs" />
+    <Compile Include="Areas\Admin\Controllers\Facade\IStatisticalFacade.cs" />
+    <Compile Include="Areas\Admin\Controllers\Facade\StatisticalFacade.cs" />
     <Compile Include="Areas\Admin\Controllers\Factory\IProductCategoryFactory.cs" />
     <Compile Include="Areas\Admin\Controllers\Factory\ProductCategoryFactory.cs" />
     <Compile Include="Areas\Admin\Controllers\Commard\ICommand.cs" />
     <Compile Include="Areas\Admin\Controllers\Iterator\CategoryController.cs" />
-    <Compile Include="Areas\Admin\Controllers\Facade\PostFacade.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
     <Compile Include="Areas\Admin\Controllers\Iterator\ilterator.cs" />
     <Compile Include="Areas\Admin\Controllers\Builder\NewsController.cs" />
-    <Compile Include="Areas\Admin\Controllers\Facade\PostFacadeController.cs" />
     <Compile Include="Areas\Admin\Controllers\Decorator\OrderController.cs" />
     <Compile Include="Areas\Admin\Controllers\Builder\NewsQueryBuilder.cs" />
     <Compile Include="Areas\Admin\Controllers\Template Method\PostsController.cs" />
@@ -206,7 +206,7 @@
     <Compile Include="Areas\Admin\Controllers\RoleController.cs" />
     <Compile Include="Areas\Admin\Controllers\SettingSystemController.cs" />
     <Compile Include="Areas\Admin\Controllers\Singleton\CategorySingleton.cs" />
-    <Compile Include="Areas\Admin\Controllers\StatisticalController.cs" />
+    <Compile Include="Areas\Admin\Controllers\Factory\StatisticalController.cs" />
     <Compile Include="Common\Common.cs" />
     <Compile Include="Common\SettingHelper.cs" />
     <Compile Include="Controllers\AccountController.cs" />
